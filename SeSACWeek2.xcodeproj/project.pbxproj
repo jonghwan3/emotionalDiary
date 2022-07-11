@@ -13,6 +13,7 @@
 		6A0D795D287BA3E200BD201E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0D795B287BA3E200BD201E /* Main.storyboard */; };
 		6A0D795F287BA3E600BD201E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A0D795E287BA3E600BD201E /* Assets.xcassets */; };
 		6A0D7962287BA3E600BD201E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0D7960287BA3E600BD201E /* LaunchScreen.storyboard */; };
+		6A0D796B287C496400BD201E /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0D796A287C496400BD201E /* DiaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6A0D795E287BA3E600BD201E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A0D7961287BA3E600BD201E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A0D7963287BA3E600BD201E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A0D796A287C496400BD201E /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		6A0D7954287BA3E200BD201E /* SeSACWeek2 */ = {
 			isa = PBXGroup;
 			children = (
+				6A0D7969287BA59200BD201E /* New Group */,
 				6A0D7955287BA3E200BD201E /* AppDelegate.swift */,
 				6A0D7957287BA3E200BD201E /* SceneDelegate.swift */,
 				6A0D7959287BA3E200BD201E /* ViewController.swift */,
 				6A0D795B287BA3E200BD201E /* Main.storyboard */,
+				6A0D796A287C496400BD201E /* DiaryViewController.swift */,
 				6A0D795E287BA3E600BD201E /* Assets.xcassets */,
 				6A0D7960287BA3E600BD201E /* LaunchScreen.storyboard */,
 				6A0D7963287BA3E600BD201E /* Info.plist */,
 			);
 			path = SeSACWeek2;
+			sourceTree = "<group>";
+		};
+		6A0D7969287BA59200BD201E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A0D796B287C496400BD201E /* DiaryViewController.swift in Sources */,
 				6A0D795A287BA3E200BD201E /* ViewController.swift in Sources */,
 				6A0D7956287BA3E200BD201E /* AppDelegate.swift in Sources */,
 				6A0D7958287BA3E200BD201E /* SceneDelegate.swift in Sources */,

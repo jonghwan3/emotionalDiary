@@ -9,11 +9,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var orangeView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        orangeView.layer.cornerRadius = orangeView.frame.width / 2
+        
+        orangeView.clipsToBounds = false
+        orangeView.layer.maskedCorners = [.layerMinXMinYCorner]
+        orangeView.layer.cornerRadius = orangeView.frame.width / 2
+        //clipsToBounds vs cornerRadius vs shadow
     }
 
-
+    @IBAction func sliderValueChanged(_ sender: Any) {
+        print("sliderChanged")
+    }
+    
 }
-
