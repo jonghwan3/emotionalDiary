@@ -16,6 +16,7 @@
 		6A0D796B287C496400BD201E /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0D796A287C496400BD201E /* DiaryViewController.swift */; };
 		6A0D796D287CFDF400BD201E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0D796C287CFDF400BD201E /* SecondViewController.swift */; };
 		6A0D7971287D216F00BD201E /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0D7970287D216F00BD201E /* SegmentViewController.swift */; };
+		6A35B4EE287EE89000848138 /* AnniversaryCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A35B4ED287EE89000848138 /* AnniversaryCalculatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		6A0D796A287C496400BD201E /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 		6A0D796C287CFDF400BD201E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		6A0D7970287D216F00BD201E /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
+		6A35B4ED287EE89000848138 /* AnniversaryCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnniversaryCalculatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				6A0D7957287BA3E200BD201E /* SceneDelegate.swift */,
 				6A0D7959287BA3E200BD201E /* ViewController.swift */,
 				6A0D795B287BA3E200BD201E /* Main.storyboard */,
+				6A35B4ED287EE89000848138 /* AnniversaryCalculatorViewController.swift */,
 				6A0D7970287D216F00BD201E /* SegmentViewController.swift */,
 				6A0D796C287CFDF400BD201E /* SecondViewController.swift */,
 				6A0D796A287C496400BD201E /* DiaryViewController.swift */,
@@ -157,6 +160,7 @@
 			files = (
 				6A0D796B287C496400BD201E /* DiaryViewController.swift in Sources */,
 				6A0D795A287BA3E200BD201E /* ViewController.swift in Sources */,
+				6A35B4EE287EE89000848138 /* AnniversaryCalculatorViewController.swift in Sources */,
 				6A0D7956287BA3E200BD201E /* AppDelegate.swift in Sources */,
 				6A0D796D287CFDF400BD201E /* SecondViewController.swift in Sources */,
 				6A0D7971287D216F00BD201E /* SegmentViewController.swift in Sources */,
@@ -314,6 +318,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +346,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

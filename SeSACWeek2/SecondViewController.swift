@@ -38,7 +38,7 @@ class SecondViewController: UIViewController {
     
     @IBAction func emotionFirstButtonClicked(_ sender: UIButton) {
         
-        print(sender.tag, sender.currentTitle, sender.currentImage)
+        //print(sender.tag, sender.currentTitle, sender.currentImage)
         let image = UIImage(named: "sesac_slime6")?.withRenderingMode(.alwaysOriginal)
         //let systemImage = UIImage(systemName: <#T##String#>) //애플 시스템 심볼
         //#imageLiteral(

@@ -33,8 +33,7 @@ class SegmentViewController: UIViewController {
         }  else if segmentControl.selectedSegmentIndex == MusicType.korea.rawValue {
             
         }
-        
-        
+    
         
         if segmentControl.selectedSegmentIndex == 0 {
             resultLabel.text = "첫번째 세그먼트 선택"
