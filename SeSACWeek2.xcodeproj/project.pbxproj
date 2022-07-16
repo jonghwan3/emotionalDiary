@@ -17,6 +17,9 @@
 		6A0D796D287CFDF400BD201E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0D796C287CFDF400BD201E /* SecondViewController.swift */; };
 		6A0D7971287D216F00BD201E /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0D7970287D216F00BD201E /* SegmentViewController.swift */; };
 		6A35B4EE287EE89000848138 /* AnniversaryCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A35B4ED287EE89000848138 /* AnniversaryCalculatorViewController.swift */; };
+		6A7409542880FE0600439FD2 /* TransitionSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7409532880FE0600439FD2 /* TransitionSecondViewController.swift */; };
+		6AC2FB202880E83800963614 /* Transition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AC2FB1F2880E83800963614 /* Transition.storyboard */; };
+		6AC2FB222880EFC100963614 /* TransitionFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC2FB212880EFC100963614 /* TransitionFirstViewController.swift */; };
 		6AD8156D287FA688002D16A2 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD8156C287FA688002D16A2 /* Setting.storyboard */; };
 		6AD8156F287FA80C002D16A2 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD8156E287FA80C002D16A2 /* Search.storyboard */; };
 		6AD81572287FAEE2002D16A2 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 6AD81571287FAEE2002D16A2 /* SideMenu */; };
@@ -38,6 +41,9 @@
 		6A0D796C287CFDF400BD201E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		6A0D7970287D216F00BD201E /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
 		6A35B4ED287EE89000848138 /* AnniversaryCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnniversaryCalculatorViewController.swift; sourceTree = "<group>"; };
+		6A7409532880FE0600439FD2 /* TransitionSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionSecondViewController.swift; sourceTree = "<group>"; };
+		6AC2FB1F2880E83800963614 /* Transition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Transition.storyboard; sourceTree = "<group>"; };
+		6AC2FB212880EFC100963614 /* TransitionFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionFirstViewController.swift; sourceTree = SOURCE_ROOT; };
 		6AD8156C287FA688002D16A2 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 		6AD8156E287FA80C002D16A2 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +82,7 @@
 		6A0D7954287BA3E200BD201E /* SeSACWeek2 */ = {
 			isa = PBXGroup;
 			children = (
+				6AC2FB1E2880E81600963614 /* Transition */,
 				6A0D7969287BA59200BD201E /* New Group */,
 				6A0D7955287BA3E200BD201E /* AppDelegate.swift */,
 				6A0D7957287BA3E200BD201E /* SceneDelegate.swift */,
@@ -99,6 +106,16 @@
 				6AD8156E287FA80C002D16A2 /* Search.storyboard */,
 			);
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		6AC2FB1E2880E81600963614 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				6AC2FB212880EFC100963614 /* TransitionFirstViewController.swift */,
+				6AC2FB1F2880E83800963614 /* Transition.storyboard */,
+				6A7409532880FE0600439FD2 /* TransitionSecondViewController.swift */,
+			);
+			path = Transition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A0D7962287BA3E600BD201E /* LaunchScreen.storyboard in Resources */,
+				6AC2FB202880E83800963614 /* Transition.storyboard in Resources */,
 				6A0D795F287BA3E600BD201E /* Assets.xcassets in Resources */,
 				6A0D795D287BA3E200BD201E /* Main.storyboard in Resources */,
 				6AD8156D287FA688002D16A2 /* Setting.storyboard in Resources */,
@@ -186,11 +204,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AC2FB222880EFC100963614 /* TransitionFirstViewController.swift in Sources */,
 				6A0D796B287C496400BD201E /* DiaryViewController.swift in Sources */,
 				6A0D795A287BA3E200BD201E /* ViewController.swift in Sources */,
 				6A35B4EE287EE89000848138 /* AnniversaryCalculatorViewController.swift in Sources */,
 				6A0D7956287BA3E200BD201E /* AppDelegate.swift in Sources */,
 				6A0D796D287CFDF400BD201E /* SecondViewController.swift in Sources */,
+				6A7409542880FE0600439FD2 /* TransitionSecondViewController.swift in Sources */,
 				6A0D7971287D216F00BD201E /* SegmentViewController.swift in Sources */,
 				6A0D7958287BA3E200BD201E /* SceneDelegate.swift in Sources */,
 			);
@@ -339,6 +359,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN24RNU85D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeSACWeek2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -367,6 +388,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN24RNU85D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeSACWeek2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
